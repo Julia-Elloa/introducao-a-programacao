@@ -13,6 +13,6 @@ programa {
     chuva = chuva * 25.4
 
     escreva ("O VALOR EM CELSIUS = ", mat.arredondar(temperatura, 2), "\n")
-    escreva ("A QUANTIDADE DE CHUVA E = ", mat.arredondar(chuva, 2))
+    escreva ("A QUANTIDADE DE CHUVA E = ", mat.arredondar(chuva, 2), "\n")
   }
 }
