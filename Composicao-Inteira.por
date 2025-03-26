@@ -12,12 +12,12 @@ programa {
 
     se (n1 > 10 ou n2 > 10 ou n3 > 10)
     {
-      escreva ("DIGITO INVALIDO")
+      escreva ("DIGITO INVALIDO", "\n")
     }
     senao
     {
       numero = (n1 * 100) + (n2 * 10) + n3
-      escreva (numero, ", ", numero*numero)
+      escreva (numero, ", ", numero*numero, "\n")
     }
 
   }
