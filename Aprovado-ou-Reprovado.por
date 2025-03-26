@@ -14,12 +14,12 @@ programa {
     se (media >= 6)
     {
       escreva ("MEDIA = ", mat.arredondar(media, 2), "\n")
-      escreva ("APROVADO")
+      escreva ("APROVADO", "\n")
     }
     senao
     {
       escreva ("MEDIA = ", mat.arredondar(media, 2), "\n")
-      escreva ("REPROVADO")
+      escreva ("REPROVADO", "\n")
     }
 
   }
