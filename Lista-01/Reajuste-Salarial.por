@@ -5,7 +5,7 @@ programa {
 
     leia (salario)
 
-    se (salario < 300)
+    se (salario <= 300)
     {
       salario = salario * 1.5
     }
