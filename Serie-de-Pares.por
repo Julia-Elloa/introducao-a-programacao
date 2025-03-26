@@ -18,7 +18,7 @@ programa {
     }
     senao
     {
-      escreva ("O PRIMEIRO NUMERO NAO E PAR")
+      escreva ("O PRIMEIRO NUMERO NAO E PAR", "\n")
     }
 
 
