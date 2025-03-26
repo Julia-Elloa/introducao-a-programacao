@@ -14,7 +14,7 @@ programa {
       salario = salario * 1.3
     }
 
-    escreva ("SALARIO COM REAJUSTE = ", salario)
+    escreva ("SALARIO COM REAJUSTE = ", salario, "\n")
 
   }
 }
