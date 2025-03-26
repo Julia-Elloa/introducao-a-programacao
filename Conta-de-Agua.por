@@ -24,7 +24,7 @@ programa {
     }
 
     escreva ("\n", "CONTA = ", conta, "\n")
-    escreva ("VALOR DA CONTA = ", valor)
+    escreva ("VALOR DA CONTA = ", valor, "\n")
 
   }
 }
