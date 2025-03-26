@@ -13,7 +13,7 @@ programa {
 
     determinante = (a * d) - (b * c)
 
-    escreva ("O VALOR DO DETERMINANTE E = ", mat.arredondar(determinante, 2))
+    escreva ("O VALOR DO DETERMINANTE E = ", mat.arredondar(determinante, 2), "\n")
     
   }
 }
