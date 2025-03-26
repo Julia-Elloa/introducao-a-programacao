@@ -16,7 +16,7 @@ programa {
       i = i + 1
     }
 
-    escreva (soma)
+    escreva (soma, "\n")
 
   }
 }
