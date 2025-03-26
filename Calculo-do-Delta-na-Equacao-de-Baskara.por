@@ -13,7 +13,7 @@ programa {
     leia (c)
 
      delta = b * b - (4 * a * c)
-     escreva ("O VALOR DE DELTA E = ", mat.arredondar(delta, 2))
+     escreva ("O VALOR DE DELTA E = ", mat.arredondar(delta, 2), "\n")
 
   }
 }
