@@ -11,7 +11,7 @@ programa {
     leia (altura)
 
     custo = 2 * (3.14159 * raio * raio) + (2 * 3.14159 * raio * altura) * 100
-    escreva ("O VALOR DO CUSTO E = ", mat.arredondar(custo, 2))
+    escreva ("O VALOR DO CUSTO E = ", mat.arredondar(custo, 2), "\n")
     
   }
 }
