@@ -19,7 +19,7 @@ programa {
       }
     }
 
-    escreva (mat.arredondar(soma, 6))
+    escreva (mat.arredondar(soma, 6), "\n")
 
   }
 }
