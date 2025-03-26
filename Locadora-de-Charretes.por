@@ -16,7 +16,7 @@ programa {
 
     }
 
-    escreva ("O VALOR A PAGAR E = ", valor)
+    escreva ("O VALOR A PAGAR E = ", valor, "\n")
 
 
   }
