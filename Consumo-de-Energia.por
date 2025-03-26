@@ -18,7 +18,7 @@ programa {
 
       escreva ("Custo por KW: R$", mat.arredondar(custokw, 2), "\n")
       escreva ("Custo do consumo: R$", mat.arredondar(custototal, 2), "\n")
-      escreva ("Custo com desconto: R$", mat.arredondar(custodesc, 2))
+      escreva ("Custo com desconto: R$", mat.arredondar(custodesc, 2), "\n")
 
   }
 }
