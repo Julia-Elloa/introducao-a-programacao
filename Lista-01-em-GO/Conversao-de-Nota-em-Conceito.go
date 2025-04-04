@@ -6,7 +6,7 @@ func main() {
 
 	var nota float64
 
-    fmt.Scan(nota)
+    fmt.Scan(&nota)
 
     if nota > 9 {
       fmt.Println ("NOTA = ", nota, " CONCEITO = A")
