@@ -6,9 +6,9 @@ func main() {
 
 	var inicio, razao, elementos, soma int
 
-	fmt.Scan(inicio)
-	fmt.Scan(razao)
-	fmt.Scan(elementos)
+	fmt.Scan(&inicio)
+	fmt.Scan(&razao)
+	fmt.Scan(&elementos)
 	soma = inicio
 	i := 1
 
