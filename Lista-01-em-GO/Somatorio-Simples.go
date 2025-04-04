@@ -10,7 +10,7 @@ func main() {
 	var num, contador int
 	var soma, i float64
 
-	fmt.Scan(num)
+	fmt.Scan(&num)
 	soma = 0
 	i = 1
 
