@@ -6,7 +6,7 @@ func main() {
 
 	var salario float64
 
-    fmt.Scan(salario)
+    fmt.Scan(&salario)
 
     if salario <= 300 {
       salario = salario * 1.5
