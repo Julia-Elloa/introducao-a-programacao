@@ -6,7 +6,7 @@ func main() {
 
 	var numero int
 
-    fmt.Scan(numero)
+    fmt.Scan(&numero)
 
     if (numero%3 == 0 && numero%5 == 0) {
       fmt.Println("O NUMERO E DIVISIVEL")
