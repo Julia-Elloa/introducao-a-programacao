@@ -10,11 +10,11 @@ func main() {
 	i := 0
 
 	fmt.Println("Informe a quantidade de alunos: ")
-	fmt.Scan(alunos)
+	fmt.Scan(&alunos)
 	fmt.Println("Insira as notas: ")
 
-	for i = 0; i <= alunos; i++ {
-		fmt.Scan(nota[i])
+	for i = 0; i < alunos; i++ {
+		fmt.Scan(&nota[i])
 		soma = soma + nota[i]
 	}
 
