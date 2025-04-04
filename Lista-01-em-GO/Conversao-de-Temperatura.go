@@ -9,7 +9,7 @@ func main() {
 
 	var nlinhas int
 
-	fmt.Scan(nlinhas)
+	fmt.Scan(&nlinhas)
 
 	var f [1000]float64
 	var c [1000]float64
@@ -18,7 +18,7 @@ func main() {
 	i = 0
 
 	for i < nlinhas {
-		fmt.Scan(f[i])
+		fmt.Scan(&f[i])
 
 		c[i] = math.Round((f[i] - 32) / 1.8)
 
