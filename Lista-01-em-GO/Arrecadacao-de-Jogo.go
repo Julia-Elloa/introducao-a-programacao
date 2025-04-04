@@ -7,7 +7,7 @@ func main() {
 	nteste := 0
 
 	fmt.Println("Insira a quantidade de jogos: ")
-	fmt.Scan(nteste)
+	fmt.Scan(&nteste)
 
 	var pessoas [1000]float32
 	var popular [1000]float32
@@ -21,11 +21,11 @@ func main() {
 
 		fmt.Println(" ")
 		fmt.Println("Informações sobre o jogo ", i+1)
-		fmt.Scan(pessoas[i])
-		fmt.Scan(popular[i])
-		fmt.Scan(geral[i])
-		fmt.Scan(arquibancada[i])
-		fmt.Scan(cadeiras[i])
+		fmt.Scan(&pessoas[i])
+		fmt.Scan(&popular[i])
+		fmt.Scan(&geral[i])
+		fmt.Scan(&arquibancada[i])
+		fmt.Scan(&cadeiras[i])
 
 		if pessoas[i] > 1 {
 			pessoas[i] = pessoas[i] / 100
