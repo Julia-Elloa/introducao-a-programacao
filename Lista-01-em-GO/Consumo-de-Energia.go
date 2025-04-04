@@ -13,8 +13,8 @@ func main() {
 	var custototal float64
 	var desconto float64
 
-	fmt.Scan(salario)
-	fmt.Scan(energia)
+	fmt.Scan(&salario)
+	fmt.Scan(&energia)
 
 	custokw = math.Round((salario * 0.7) / 100)
 	custototal = math.Round(custokw * energia)
