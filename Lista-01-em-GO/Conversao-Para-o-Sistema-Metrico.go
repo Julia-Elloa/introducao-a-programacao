@@ -8,10 +8,10 @@ import (
 func main() {
 
 	var temperatura float64
-    var chuva float64
+    	var chuva float64
 
-    fmt.Scan(temperatura)
-    fmt.Scan(chuva)
+    fmt.Scan(&temperatura)
+    fmt.Scan(&chuva)
 
     temperatura = math.Round((temperatura - 32)/1.8)
     chuva = math.Round(chuva * 25.4)
