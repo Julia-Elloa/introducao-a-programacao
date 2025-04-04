@@ -9,9 +9,9 @@ func main() {
 	var consumidor string
 	var valor float32
 
-	fmt.Scan(conta)
-	fmt.Scan(agua)
-	fmt.Scan(consumidor)
+	fmt.Scan(&conta)
+	fmt.Scan(&agua)
+	fmt.Scan(&consumidor)
 
 	if consumidor == "R" || consumidor == "r" {
 		valor = (agua * 0.05) + 5
