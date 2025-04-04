@@ -6,8 +6,8 @@ func main() {
 
 	var x, y int
 
-    fmt.Scan(x)
-    fmt.Scan(y)
+    fmt.Scan(&x)
+    fmt.Scan(&y)
     i := 2
 
     if x%2 == 0 {
