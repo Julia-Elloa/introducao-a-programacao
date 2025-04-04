@@ -9,9 +9,9 @@ func main() {
     var n3 int
     var numero int
 
-    fmt.Scan(n1)
-    fmt.Scan(n2)
-    fmt.Scan(n3)
+    fmt.Scan(&n1)
+    fmt.Scan(&n2)
+    fmt.Scan(&n3)
 
     if n1 > 10 || n2 > 10 || n3 > 10 {
       fmt.Println("DIGITO INVALIDO")
