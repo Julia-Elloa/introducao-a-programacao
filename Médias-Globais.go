@@ -16,9 +16,9 @@ func main() {
 	var i int
 
 	for i:=0; i <= alunos; i++{
-		fmt.Scan(nota1[i])
-		fmt.Scan(nota2[i])
-		fmt.Scan(nota3[i])
+		fmt.Scan(&nota1[i])
+		fmt.Scan(&nota2[i])
+		fmt.Scan(&nota3[i])
 
 		media[i] = (nota1[i] + nota2[i] + nota3[i])/3
 	}
