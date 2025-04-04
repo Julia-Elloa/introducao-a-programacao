@@ -7,7 +7,7 @@ func main() {
 	var horas int
     var valor int
 
-    fmt.Scan(horas)
+    fmt.Scan(&horas)
 
     if horas%3 == 0 {
       valor = horas * 10
