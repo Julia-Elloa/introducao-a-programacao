@@ -8,16 +8,12 @@ func main() {
 
 	fmt.Scan(&n)
 
-	var l [100]int
+	var l [10]int
 	var x int
-
-	i := 0
-	j := 0
-
+	
 	fmt.Println("Preencha o vetor de", n, " casas:")
-	for i < n {
+	for i := 0; i < n; i++ {
 		fmt.Scan(&l[i])
-		i++
 	}
 
 	fmt.Println("Escolha um valor para consultar:")
@@ -25,11 +21,10 @@ func main() {
 
 	posicao := -1
 
-	for j < n {
+	for j := 0; j < n; j++ {
 		if l[j] == x {
 			posicao = j + 1
 		}
-		j++
 	}
 
 	fmt.Println("Posição do número", x, "no vetor: ")
