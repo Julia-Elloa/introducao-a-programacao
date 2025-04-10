@@ -8,7 +8,7 @@ func main() {
 
 	fmt.Scan(&n)
 
-	var l [10]int
+	var l [100]int
 	var x int
 
 	i := 0
